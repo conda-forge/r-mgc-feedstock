@@ -36,6 +36,7 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
     - r-lattice                    # [build_platform != target_platform]
     - r-mass                       # [build_platform != target_platform]
+    - r-raster                     # [build_platform != target_platform]
     - r-rcpp                       # [build_platform != target_platform]
     - r-sp                         # [build_platform != target_platform]
     - r-terra                      # [build_platform != target_platform]
